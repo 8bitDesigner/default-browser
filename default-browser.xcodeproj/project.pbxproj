@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DA3B41511CF565B700C8D324 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3B41501CF565B700C8D324 /* main.swift */; };
+		DAD674F11CF6A3C3001E27D6 /* url-manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD674F01CF6A3C3001E27D6 /* url-manager.swift */; };
+		DAD674F31CF6A453001E27D6 /* console.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD674F21CF6A453001E27D6 /* console.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DA3B414D1CF565B700C8D324 /* swap-browsers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "swap-browsers"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3B414D1CF565B700C8D324 /* default-browser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "default-browser"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA3B41501CF565B700C8D324 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DAD674F01CF6A3C3001E27D6 /* url-manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "url-manager.swift"; sourceTree = "<group>"; };
+		DAD674F21CF6A453001E27D6 /* console.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = console.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +45,7 @@
 		DA3B41441CF565B700C8D324 = {
 			isa = PBXGroup;
 			children = (
-				DA3B414F1CF565B700C8D324 /* swap-browsers */,
+				DA3B414F1CF565B700C8D324 /* default-browser */,
 				DA3B414E1CF565B700C8D324 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +53,27 @@
 		DA3B414E1CF565B700C8D324 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA3B414D1CF565B700C8D324 /* swap-browsers */,
+				DA3B414D1CF565B700C8D324 /* default-browser */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DA3B414F1CF565B700C8D324 /* swap-browsers */ = {
+		DA3B414F1CF565B700C8D324 /* default-browser */ = {
 			isa = PBXGroup;
 			children = (
 				DA3B41501CF565B700C8D324 /* main.swift */,
+				DAD674F01CF6A3C3001E27D6 /* url-manager.swift */,
+				DAD674F21CF6A453001E27D6 /* console.swift */,
 			);
-			path = "swap-browsers";
+			path = "default-browser";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DA3B414C1CF565B700C8D324 /* swap-browsers */ = {
+		DA3B414C1CF565B700C8D324 /* default-browser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA3B41541CF565B700C8D324 /* Build configuration list for PBXNativeTarget "swap-browsers" */;
+			buildConfigurationList = DA3B41541CF565B700C8D324 /* Build configuration list for PBXNativeTarget "default-browser" */;
 			buildPhases = (
 				DA3B41491CF565B700C8D324 /* Sources */,
 				DA3B414A1CF565B700C8D324 /* Frameworks */,
@@ -77,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = "swap-browsers";
-			productName = "swap-browsers";
-			productReference = DA3B414D1CF565B700C8D324 /* swap-browsers */;
+			name = "default-browser";
+			productName = "default-browser";
+			productReference = DA3B414D1CF565B700C8D324 /* default-browser */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DA3B41481CF565B700C8D324 /* Build configuration list for PBXProject "swap-browsers" */;
+			buildConfigurationList = DA3B41481CF565B700C8D324 /* Build configuration list for PBXProject "default-browser" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -109,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA3B414C1CF565B700C8D324 /* swap-browsers */,
+				DA3B414C1CF565B700C8D324 /* default-browser */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +126,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA3B41511CF565B700C8D324 /* main.swift in Sources */,
+				DAD674F31CF6A453001E27D6 /* console.swift in Sources */,
+				DAD674F11CF6A3C3001E27D6 /* url-manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +233,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA3B41481CF565B700C8D324 /* Build configuration list for PBXProject "swap-browsers" */ = {
+		DA3B41481CF565B700C8D324 /* Build configuration list for PBXProject "default-browser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA3B41521CF565B700C8D324 /* Debug */,
@@ -234,13 +242,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA3B41541CF565B700C8D324 /* Build configuration list for PBXNativeTarget "swap-browsers" */ = {
+		DA3B41541CF565B700C8D324 /* Build configuration list for PBXNativeTarget "default-browser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA3B41551CF565B700C8D324 /* Debug */,
 				DA3B41561CF565B700C8D324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

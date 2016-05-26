@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:swap-browsers.xcodeproj">
+      location = "self:default-browser.xcodeproj">
    </FileRef>
 </Workspace>
